@@ -9,6 +9,8 @@ class Game{
     this.HEIGHT= HEIGHT;
     this.WIDTH= WIDTH;
     this.board = [];
+
+    
     this.currPlayer = 1;
     this.makeBoard();
     this.makeHtmlBoard();
